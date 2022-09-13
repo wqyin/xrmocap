@@ -10,11 +10,11 @@ This tool takes a config file and starts trainig MvP model with Shelf, Campus or
 
 ## Preparation
 
-1. Download and install the `Deformable` package (Skip if you have done this step during model evaluation)
+1. Install the `Deformable` package if you have not done this step before:
 
-Run the script:
 ```
-sh scripts/download_install_deformable.sh
+cd xrmocap/ops/deformable
+sh make.sh
 ```
 
 2. Prepare Datasets

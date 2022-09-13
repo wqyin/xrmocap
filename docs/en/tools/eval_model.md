@@ -10,11 +10,11 @@ This tool takes a config file and MvP model checkpoints and performs evaluation 
 
 ## Preparation
 
-1. Download and install the `Deformable` package (Skip if you have done this step during model training)
+1. Install the `Deformable` package if you have not done this step before:
 
-Run the script:
 ```
-sh scripts/download_install_deformable.sh
+cd xrmocap/ops/deformable
+sh make.sh
 ```
 
 2. Prepare Datasets
